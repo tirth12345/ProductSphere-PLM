@@ -7,7 +7,8 @@ import streamlit as st
 
 APP_DIR = Path(__file__).resolve().parent
 DB_PATH = APP_DIR / "productsphere.db"
-img='C:\\Users\\Admin\\Desktop\\ProductSphere_PLM_MVP\\Logo.webp'
+# img='C:\\Users\\Admin\\Desktop\\ProductSphere_PLM_MVP\\Logo.webp'
+img='Logo.webp'
 st.set_page_config(page_title="ProductSphere | PLM", page_icon=img, layout="wide")
 
 STATUSES = ["Idea", "Planned", "In Progress", "In Review", "Done", "Blocked"]
